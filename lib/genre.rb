@@ -8,6 +8,7 @@ class Genre
     @songs = []
   end
 
+
   def save
       @@all << self
   end
