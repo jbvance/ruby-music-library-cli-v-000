@@ -7,6 +7,7 @@ class Song
     @name = name
     self.artist = artist_param if artist_param
     self.genre = genre_param if genre_param
+    binding.pry
   end
 
   def artist=(artist)
